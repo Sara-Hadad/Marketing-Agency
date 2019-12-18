@@ -1,7 +1,7 @@
 
 
 
-  let profile = $(".about").offset().top
+  let profile = $("h1").offset().top
   $(window).scroll(function () {
    let scrollTop = $(window).scrollTop();
    if (scrollTop>profile){
